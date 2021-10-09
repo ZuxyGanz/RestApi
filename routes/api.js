@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')  
 }
  
-var creator = "ALDI FAUZI"
+var creator = "RIFKI WANDI"
 var secure = require('ssl-express-www');
 var cors = require('cors');
 var fetch = require('node-fetch');
@@ -175,7 +175,7 @@ Akhir Pesan Error
 
 router.use(favicon(__path + "/views/favicon.ico"));
 
-const listkey = ["ZuxuGanz", "ZiyKey", "AldiKey", "freeApi"];
+const listkey = ["RIFKI BOTX", "RIFKIBOTZ", "RIFKIBOTX", "RIFKI BOTZ"];
 
 router.post("/apikey", async (req, res, next) => {
   const key = req.query.key;
